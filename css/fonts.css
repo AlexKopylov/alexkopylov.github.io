@@ -1,0 +1,8 @@
+@font-face {
+    /*font-family: 'MyWebFont';*/
+    /*src: url('webfont.eot'); /!* Режимы, совместимые с IE9 *!/*/
+    /*src: url('webfont.eot?#iefix') format('embedded-opentype'), /!* IE6-IE8 *!/*/
+    /*url('webfont.woff') format('woff'), /!* Современные браузеры *!/*/
+    /*url('webfont.ttf')  format('truetype'), /!* Safari, Android, iOS *!/*/
+    /*url('webfont.svg#svgFontName') format('svg'); /!* Устаревший iOS *!/*/
+}
