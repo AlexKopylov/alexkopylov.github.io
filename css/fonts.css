@@ -1,8 +1,9 @@
 @font-face {
-    /*font-family: 'MyWebFont';*/
-    /*src: url('webfont.eot'); /!* Режимы, совместимые с IE9 *!/*/
-    /*src: url('webfont.eot?#iefix') format('embedded-opentype'), /!* IE6-IE8 *!/*/
-    /*url('webfont.woff') format('woff'), /!* Современные браузеры *!/*/
-    /*url('webfont.ttf')  format('truetype'), /!* Safari, Android, iOS *!/*/
-    /*url('webfont.svg#svgFontName') format('svg'); /!* Устаревший iOS *!/*/
+  font-family: 'RobotoCondensedRegular';
+  src: url('../fonts/RobotoCondensedRegular/RobotoCondensedRegular.eot');
+  src: url('../fonts/RobotoCondensedRegular/RobotoCondensedRegular.eot') format('embedded-opentype'),
+  url('../fonts/RobotoCondensedRegular/RobotoCondensedRegular.woff2') format('woff2'),
+  url('../fonts/RobotoCondensedRegular/RobotoCondensedRegular.woff') format('woff'),
+  url('../fonts/RobotoCondensedRegular/RobotoCondensedRegular.ttf') format('truetype'),
+  url('../fonts/RobotoCondensedRegular/RobotoCondensedRegular.svg#RobotoCondensedRegular') format('svg');
 }
