@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'LoraBold';
+    src: url('../fonts/LoraBold/LoraBold.eot');
+    src: url('../fonts/LoraBold/LoraBold.eot') format('embedded-opentype'),
+    url('../fonts/LoraBold/LoraBold.woff2') format('woff2'),
+    url('../fonts/LoraBold/LoraBold.woff') format('woff'),
+    url('../fonts/LoraBold/LoraBold.ttf') format('truetype'),
+    url('../fonts/LoraBold/LoraBold.svg#LoraBold') format('svg');
+}
+
+@font-face {
+    font-family: 'LoraRegular';
+    src: url('../fonts/LoraRegular/LoraRegular.eot');
+    src: url('../fonts/LoraRegular/LoraRegular.eot') format('embedded-opentype'),
+    url('../fonts/LoraRegular/LoraRegular.woff2') format('woff2'),
+    url('../fonts/LoraRegular/LoraRegular.woff') format('woff'),
+    url('../fonts/LoraRegular/LoraRegular.ttf') format('truetype'),
+    url('../fonts/LoraRegular/LoraRegular.svg#LoraRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'SourceSansProSemibold';
+    src: url('../fonts/SourceSansProSemibold/SourceSansProSemibold.eot');
+    src: url('../fonts/SourceSansProSemibold/SourceSansProSemibold.eot') format('embedded-opentype'),
+    url('../fonts/SourceSansProSemibold/SourceSansProSemibold.woff2') format('woff2'),
+    url('../fonts/SourceSansProSemibold/SourceSansProSemibold.woff') format('woff'),
+    url('../fonts/SourceSansProSemibold/SourceSansProSemibold.ttf') format('truetype'),
+    url('../fonts/SourceSansProSemibold/SourceSansProSemibold.svg#SourceSansProSemibold') format('svg');
+}
+
+@font-face {
+    font-family: 'MontserratRegular';
+    src: url('../fonts/MontserratRegular/MontserratRegular.eot');
+    src: url('../fonts/MontserratRegular/MontserratRegular.eot') format('embedded-opentype'),
+    url('../fonts/MontserratRegular/MontserratRegular.woff2') format('woff2'),
+    url('../fonts/MontserratRegular/MontserratRegular.woff') format('woff'),
+    url('../fonts/MontserratRegular/MontserratRegular.ttf') format('truetype'),
+    url('../fonts/MontserratRegular/MontserratRegular.svg#MontserratRegular') format('svg');
+}
+

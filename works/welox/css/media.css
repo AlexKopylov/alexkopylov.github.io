@@ -1,0 +1,477 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+    .header__start-btn {
+        bottom: 15%;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+    .text__about {
+        font-size: 2.5em;
+        line-height: 1.5em;
+    }
+
+    /*=== header ===*/
+    .menu {
+        display: none;
+        position: absolute;
+        top: 50px;
+        right: 20px;
+        width: 60%;
+        z-index: 20;
+        background-color: #ccc;
+        border-radius: 5px;
+    }
+
+    .menu-item {
+        display: block;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .menu__link {
+        color: #000;
+        display: block;
+        font-size: 1.5em;
+        padding: 5px;
+    }
+
+    .menu__link:hover {
+        background-color: #888;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+
+    /*=== text ===*/
+    .header-lead {
+        top: 70%;
+    }
+
+    .lead {
+        font-size: 3em;
+        margin-bottom: 15px;
+    }
+
+    .lead__text {
+        color: #fff;
+        font-size: 22px;
+        line-height: 23px;
+    }
+
+    /*=== btn ===*/
+    .start-btn-wrap {
+        bottom: 12%;
+    }
+
+
+    .header__start-btn {
+        width: 230px;
+        height: 50px;
+        font-size: 1.5em;
+    }
+
+    /*=== slider ===*/
+    .sidebar-button {
+        display: inline-block;
+        float: right;
+        line-height: 38px;
+    }
+
+    .brands__list {
+        text-align: center;
+    }
+
+    /*=== reviews ===*/
+    .slid__pic {
+        margin: 80px auto;
+    }
+
+    .slid__descr {
+        margin-bottom: 50px;
+    }
+
+    .slid_recall,
+    .slid_recall a {
+        margin-bottom: 35px;
+    }
+
+    /*=== contact ===*/
+    .contact__text {
+        font-size: 2em;
+    }
+
+    .contact__list {
+        font-size: 1em;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+    .text__about {
+        font-size: 2em;
+    }
+
+    /*=== header ===*/
+    .menu {
+        width: 75%;
+    }
+
+    /*=== text ===*/
+    .lead {
+        font-size: 2em;
+        line-height: 1em;
+    }
+
+    .lead__text {
+        font-size: 1.5em;
+    }
+
+    /*=== btn ===*/
+    .start-btn-wrap {
+        bottom: 8%;
+    }
+
+    /*=== / ===*/
+    /*=== portfolio===*/
+    .p-menu {
+        text-align: center;
+    }
+
+    .p-menu__item {
+        padding: 0 10px;
+    }
+
+    /*=== gallery ===*/
+    .gallery__list {
+        margin: 50px auto 20px;
+    }
+
+    .list__item {
+        margin: 5px auto;
+    }
+
+    .show-btn-wrap {
+        margin: 0 auto;
+    }
+
+    .gallery__show-btn {
+        font-size: 20px;
+    }
+
+    /*=== / ===*/
+    /*=== reviews ===*/
+    .slid__pic {
+        margin: 30px auto;
+        width: 150px;
+        height: 150px;
+    }
+
+    .slid__descr {
+        font-size: 1.3em;
+        line-height: 1.5em;
+        margin-bottom: 15px;
+    }
+
+    .slid_recall,
+    .slid_recall a {
+        font-size: 1em;
+        line-height: 1.5em;
+        margin-bottom: 65px;
+    }
+
+    /*=== contact ===*/
+    /*=== top contact ===*/
+    .contact__top-text {
+        margin: 40px auto;
+        position: relative;
+    }
+
+    .contact__text-wrap {
+        text-align: center;
+    }
+
+    .contact__text {
+        font-size: 3em;
+    }
+
+    .contact__list {
+        text-align: center;
+        position: absolute;
+        top: -150px;
+        left: 0;
+        right: 0;
+    }
+
+    .contact__link {
+        font-size: 1.2em;
+    }
+
+    /*=== contact / form ===*/
+    .address {
+        width: 32%;
+        float: left;
+        margin-right: 1%;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+
+    .address__text {
+        line-height: 1em;
+        font-size: 1.5em;
+        font-weight: 400;
+    }
+
+    .address__text-small {
+        font-size: 1.1em;
+        line-height: 1.2em;
+    }
+
+    /*=== form ===*/
+    .form-btn {
+        font-size: 1.5em;
+        height: 50px;
+        width: 240px;
+        display: block;
+        margin: 30px auto 60px;
+    }
+
+    .form-btn_top {
+        display: none;
+    }
+
+    /*=== footer ===*/
+    .footer__copyright {
+        text-align: center;
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+    .social__list {
+        margin: 10px;
+        text-align: center;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+    /*=== header ===*/
+    .menu {
+        width: 100%;
+    }
+    .menu__link:hover {
+        font-size: 1em;
+    }
+    /*=== text ===*/
+    .lead__text {
+        font-size: 1.3em;
+    }
+
+    /*=== btn ===*/
+    .start-btn-wrap {
+        bottom: 5%;
+    }
+    .header__start-btn {
+        font-size: 1.2em;
+    }
+    /*=== / ===*/
+    /*=== portfolio===*/
+    .gallery_bnt {
+        display: block;
+    }
+
+    .p-menu {
+        display: none;
+        text-align: center;
+        position: absolute;
+        top: 175px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 10;
+        background-color: #ccc;
+        width: 90%;
+    }
+
+    .p-menu__item {
+        padding: 5px 0;
+        display: block;
+    }
+
+    .p-menu-link {
+        font-size: 24px;
+    }
+
+    /*=== reviews ===*/
+    .slid__pic {
+        width: 130px;
+        height: 130px;
+    }
+
+    .slid__descr {
+        font-size: 1.1em;
+        line-height: 1.2em;
+    }
+
+    .slid_recall,
+    .slid_recall a {
+        font-size: 1em;
+        line-height: 1.5em;
+        font-weight: bold;
+    }
+
+    /*=== contact ===*/
+    /*=== top contact ===*/
+    .contact-btn {
+        display: block;
+    }
+
+    .contact__list {
+        display: none;
+        text-align: center;
+        position: absolute;
+        top: -95px;
+        left: 0;
+        right: 0;
+        z-index: 10;
+        background-color: #ccc;
+        width: 90%;
+        margin: auto;
+        border-radius: 20px;
+    }
+    .contact__item {
+        display: block;
+        padding-left: 0;
+    }
+    .contact__link:hover {
+        color: #00a5ff;
+        box-shadow: 0 0 3px 3px #ccc inset, 0 0 5px 3px #222 inset;
+        transition: 0.5s;
+    }
+
+    /*=== / ===*/
+    .address {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .address__text {
+        line-height: 3em;
+        font-size: 1.5em;
+    }
+
+    .address__text-small {
+        font-size: 1.5em;
+        line-height: 1.4em;
+    }
+
+    /*=== form ===*/
+    .form-btn_top {
+        display: block;
+    }
+
+    .form {
+        display: none;
+    }
+
+    .address__text {
+        font-size: 1.5em;
+        line-height: 1.2em;
+        font-weight: 700;
+        color: #fff;
+        margin-bottom: 15px;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+    .text__about {
+        font-size: 1.5em;
+    }
+
+    /*=== header ===*/
+    .menu-item {
+        display: block;
+        padding-left: 0;
+    }
+    /*=== text ===*/
+    .lead__text {
+        font-size: 1.2em;
+    }
+    /*=== btn ===*/
+    .start-btn-wrap {
+        bottom: 2%;
+    }
+
+    .header__start-btn {
+        width: 150px;
+        height: 35px;
+        font-size: 1em;
+    }
+
+    .start-btn__text {
+        font-size: 1em;
+        line-height: 35px;
+    }
+}
+
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 481px) {
+    /*=== portfolio===*/
+    .gallery_bnt {
+        display: none;
+    }
+
+    /*=== form ===*/
+    .form {
+        display: block;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+    /*=== portfolio===*/
+    .gallery_bnt {
+        display: none;
+    }
+
+    .address {
+        width: 100%;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 993px) {
+    .sidebar-button {
+        display: none;
+    }
+
+    .menu {
+        display: block !important;
+    }
+
+    /*=== portfolio===*/
+    .gallery_bnt {
+        display: none;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+    /*=== header ===*/
+    .sidebar-button {
+        display: none;
+    }
+
+    /*=== portfolio===*/
+    .gallery_bnt {
+        display: none;
+    }
+}
