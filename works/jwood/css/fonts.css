@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'NexaLight';
+    src: url('../fonts/NexaLight/NexaLight.eot');
+    src: url('../fonts/NexaLight/NexaLight.eot') format('embedded-opentype'),
+    url('../fonts/NexaLight/NexaLight.woff2') format('woff2'),
+    url('../fonts/NexaLight/NexaLight.woff') format('woff'),
+    url('../fonts/NexaLight/NexaLight.ttf') format('truetype'),
+    url('../fonts/NexaLight/NexaLight.svg#NexaLight') format('svg');
+}
+
+@font-face {
+    font-family: 'FeltTipWoman';
+    src: url('../fonts/Felt_Tip_Woman/FeltTipWoman.eot');
+    src: url('../fonts/Felt_Tip_Woman/FeltTipWoman.eot') format('embedded-opentype'),
+    url('../fonts/Felt_Tip_Woman/FeltTipWoman.woff2') format('woff2'),
+    url('../fonts/Felt_Tip_Woman/FeltTipWoman.woff') format('woff'),
+    url('../fonts/Felt_Tip_Woman/FeltTipWoman.ttf') format('truetype'),
+    url('../fonts/Felt_Tip_Woman/FeltTipWoman.svg#FeltTipWoman') format('svg');
+}
+
+@font-face {
+    font-family: 'NexaBold';
+    src: url('../fonts/NexaBold/NexaBold.eot');
+    src: url('../fonts/NexaBold/NexaBold.eot') format('embedded-opentype'),
+    url('../fonts/NexaBold/NexaBold.woff2') format('woff2'),
+    url('../fonts/NexaBold/NexaBold.woff') format('woff'),
+    url('../fonts/NexaBold/NexaBold.ttf') format('truetype'),
+    url('../fonts/NexaBold/NexaBold.svg#NexaBold') format('svg');
+}
