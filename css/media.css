@@ -2,13 +2,23 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
+
     .work .portfolio__item-cont h4 {
         font-size: 1.6em;
+    }
+    .about .me {
+        margin: 35px auto 0;
+        width: 100%;
+    }
+    .about .me__inner {
+        width: 60%;
+        margin: 0 auto 20px;
     }
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
+
     .contact .contact__inner {
         width: 65%;
     }
@@ -20,15 +30,9 @@
     .caption .caption__inner {
         font-size: 2.5em;
     }
-
-    .me {
-        display: flex;
-        justify-content: space-between;
+    .about .me__inner {
+        width: 40%;
     }
-    .me__description {
-        margin-left: 10px;
-    }
-
     .portfolio__item .portfolio__item-cont{
         font-size: 1.3em;
     }
@@ -36,7 +40,6 @@
         font-size: 1.3em;
         margin: 15px;
     }
-
     .contact .contact__inner {
         margin: 0 auto;
         width: 50%;
@@ -71,7 +74,6 @@
         text-align: center;
     }
 
-
     /*Disable Animation on Mobile Devices*/
     .animated {
         /*CSS transitions*/
@@ -91,13 +93,13 @@
         -o-animation: none !important;
         animation: none !important;
     }
-
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
-    .me {
-        display: block;
+
+    .about .me__inner {
+        width: 60%;
     }
     .work .work__menu {
         display: none;
@@ -109,15 +111,15 @@
     }
     .filter-btn {
         display: block;
+        width: 40px;
+        height: 40px;
         font-size: 2em;
         padding: 10px;
         border: none;
         outline: none;
         border-radius: 10px;
         margin: 20px;
-
     }
-
     .work .portfolio__item:hover .portfolio__item-cont {
         padding-top: 10%;
     }
@@ -133,7 +135,6 @@
         font-size: 1em;
         padding: 5px 10px;
     }
-
     .contact .contact__inner {
         margin: 0;
         width: 100%;
@@ -158,9 +159,11 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width: 481px) {
+
     .work .work__menu {
         display: block !important;
     }
+
 }
 
 /* Small Devices, Tablets */
