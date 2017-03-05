@@ -114,11 +114,10 @@
         width: 40px;
         height: 40px;
         font-size: 2em;
-        padding: 10px;
-        border: none;
         outline: none;
-        border-radius: 10px;
         margin: 20px;
+        background-color: transparent;
+        border: 1px solid #222;
     }
     .work .portfolio__item:hover .portfolio__item-cont {
         padding-top: 10%;
