@@ -23,10 +23,10 @@ $(document).ready(function () {
     //    midClick: true
     //});
 
-    $(".portfolio__item").each(function (i) {
-        $(this).find("a").attr("href", "#work_" + i);
-        $(this).find(".portfolio__description").attr("id", "work_" + i);
-    });
+    // $(".portfolio__item").each(function (i) {
+    //     $(this).find("a").attr("href", "#work_" + i);
+    //     $(this).find(".portfolio__description").attr("id", "work_" + i);
+    // });
 
     //==================================================================================
     //==================================================================================
